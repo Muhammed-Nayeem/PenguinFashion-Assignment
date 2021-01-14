@@ -164,6 +164,7 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  margin-top: 10px;
 }
 .cd-b h5 {
   text-transform: capitalize;
@@ -193,9 +194,41 @@ img {
   margin: 0 8px 0 4px;
 }
 
-/*Facilities CSS Code*/
-
-
+/*About CSS Code*/
+.about-area {
+  padding: 60px 0;
+}
+.main-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-about {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background: var(--white-background);
+  margin-bottom: 35px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.icon-box {
+  flex-basis: 20%;
+}
+.content-box {
+  flex-basis: 70%;
+}
+.single-about .icon-box img {
+  max-width: 80px;
+}
+.single-about .content-box h1 {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--heading-color);
+}
 
 /*Future Product CSS Code*/
 .future-product {
