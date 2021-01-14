@@ -163,7 +163,7 @@ img {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  padding-top: 14px;
+  padding: 0;
 }
 .cd-b h5 {
   text-transform: capitalize;
@@ -194,28 +194,8 @@ img {
 }
 
 /*Facilities CSS Code*/
-.facilities-area {
-  padding: 50px 0;
-  margin: 30px 0;
-}
-.bg-box {
-  background: var(--white-background);
-  margin-bottom: 20px;
-  border-radius: 20px;
-  padding: 10px;
-}
-.bg-box .img-box {
-  max-width: 90px;
-}
-.facilities-text h4 {
-  text-transform: capitalize;
-  font-size: 22px;
-  font-weight: 501;
-  color: var(--heading-color);
-}
-.facilities-text p {
-  color: var(--sub-fonts-color);
-}
+
+
 
 /*Future Product CSS Code*/
 .future-product {
